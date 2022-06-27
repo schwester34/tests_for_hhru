@@ -54,6 +54,6 @@ tasks.withType(Test) {
 
 task vacancy(type: Test) {
     useJUnitPlatform{
-        includeTags "Vacancy"
+        includeTags "vacancy"
     }
 }

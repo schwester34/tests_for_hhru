@@ -25,7 +25,7 @@ public class TestBase {
         String browser = System.getProperty("browser", "chrome");
 
 
-        Configuration.baseUrl = "https://spb.hh.ru";
+        Configuration.baseUrl = "https://ekaterinburg.hh.ru/";
         Configuration.browserSize = browserSize;
         Configuration.remote = "https://" + login + ":" + password + "@" + remote;
         Configuration.browser = browser;
