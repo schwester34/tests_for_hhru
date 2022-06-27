@@ -14,7 +14,7 @@ import static io.qameta.allure.Allure.step;
 
 @Tag("vacancy")
 public class Tests extends TestBase {
-    SelenideElement vacancy = $(".vacancy-serp__vacancy-title"),
+    SelenideElement vacancy = $(".vacancy-serp__vacancy-title"), // (".bloko-link")
             city = $(".bloko-text"),
             skill = $(".vacancy-serp-item__info"),  //*[@id="a11y-main-content"]
             form = $(".bloko-form-item"),
