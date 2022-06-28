@@ -28,7 +28,7 @@ public class Tests extends TestBase {
         });
     }
     @Test
-    @DisplayName("Positive test") // Проверка наличия в вакансии адреса
+    @DisplayName("Positive test") // Проверка наличия в вакансии адреса Екатеринбург, улица Ткачей, 23
     void hhTest02() {
         step("open the link", () -> open("/vacancy/51857862?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=QA%20engineer%20java"));
 
