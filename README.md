@@ -87,7 +87,8 @@ View
 
 Conducted tests with steps, the ability to view a screenshot, log and video
 
-![allure2](https://user-images.githubusercontent.com/99205353/176166356-6bcd72cd-8d08-4385-b9de-c2e434632b57.png)
+![Безымянный](https://user-images.githubusercontent.com/99205353/176181723-707b6cb3-23ea-4fed-8c43-be0d124e128e.png)
+
 
 
 
