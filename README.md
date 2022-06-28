@@ -31,16 +31,16 @@ __Implemented checks__
 
 :white_check_mark: _Positive tests_
 
-- [ ] Checking the correspondence of the job title to the expectation: Middle QA Engineer
-- [ ] Checking the compliance of the address with the vacancy: Екатеринбург, улица Ткачей, 23
-- [ ] Сhecking compliance in key skills Java
+- [ ] Checking the correspondence of the job title to the expectation: Middle QA Engineer (проверка наличия в названии вакансии Middle QA Engineer)
+- [ ] Checking the compliance of the address with the vacancy: Екатеринбург, улица Ткачей, 23 (проверка наличия адреса Екатеринбург, улица Ткачей, 23)
+- [ ] Сhecking compliance in key skills Java (проверка наличия в скиллах Java)
 
 
 ---
 
 :x: _Negative tests_
-- [ ] Checking compliance in key skills Jira
-- [ ] Checking compliance in key skills Selenide
+- [ ] Checking compliance in key skills Jira (проверка наличия в скиллах Jira)
+- [ ] Checking compliance in key skills Selenide (проверка наличия в скиллах Selenide)
 
 ---
 :toolbox: __Build in Jenkins__
