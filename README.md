@@ -108,7 +108,9 @@ https://jenkins.autotests.cloud/job/tests_for_hhru/16/allure/#
 The launch takes place on a remote Selenoid web driver
 
 
-https://user-images.githubusercontent.com/99205353/176093908-c10156d7-63d9-4544-90f2-cd1d3d918a6e.mp4
+https://user-images.githubusercontent.com/99205353/176175452-616b99d4-992a-4189-ba07-e7613da52b74.mp4
+
+
 
 
 
