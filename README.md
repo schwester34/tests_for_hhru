@@ -47,7 +47,8 @@ __Implemented checks__
 
 [Project tests_for_hhru](https://jenkins.autotests.cloud/job/tests_for_hhru/)
 
-![sreenshoot1](https://user-images.githubusercontent.com/99205353/176090762-17d0c0ca-cc35-411d-afe4-7f19ed4e9632.png)
+![2](https://user-images.githubusercontent.com/99205353/176175111-b298d1c4-f1d2-4ed7-94e9-84d75ad53077.png)
+
 
 
 __Parameterized assembly in Jenkins__
