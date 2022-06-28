@@ -95,7 +95,9 @@ Conducted tests with steps, the ability to view a screenshot, log and video
 :incoming_envelope: __Telegram Report__
 
 
-![Telegram](https://user-images.githubusercontent.com/99205353/176174615-0f198afb-3cf1-4d38-809d-7e3cb5b9460a.png)
+![telegram](https://user-images.githubusercontent.com/99205353/176176385-22b578e8-de07-48bb-8e1f-b07d5c903ab7.png)
+
+
 
 
 In addition to colorful infographics, you can click on the link to view the report:
