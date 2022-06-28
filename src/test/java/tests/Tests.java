@@ -14,9 +14,9 @@ import static io.qameta.allure.Allure.step;
 
 @Tag("vacancy")
 public class Tests extends TestBase {
-    SelenideElement vacancy = $(".vacancy-serp__vacancy-title"), // (".bloko-link")
-            city = $(".bloko-text"),
-            skill = $(".vacancy-serp-item__info"),  //*[@id="a11y-main-content"]
+    SelenideElement vacancy = $(".HH-MainContent"),
+            city = $("[data-qa='vacancy-view-raw-address']"),
+            skill = $(".bloko-tag-list"),
             form = $(".bloko-form-item"),
             attribute = $(byAttribute("data-qa", "account-signup-email")),
             ok = $(".signup-submit"),
@@ -24,16 +24,14 @@ public class Tests extends TestBase {
     @Test
     @DisplayName("Positive tests")
     void hhTest01() {
-        step("open the link", () -> {
-            open("/vacancy?text=Qa+engineer+java&from=suggest_post&salary=&clusters=true&area=3&ored_clusters=true&enable_snippets=true");
-        });
+        step("open the link", () -> open("/vacancy/51857862?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=QA%20engineer%20java"));
 
         step("check the correspondence of the job title to the expectation: Middle QA Engineer", () -> {
             vacancy.shouldHave(text("Middle QA Engineer"));
         });
 
-        step("check the compliance of the city with the vacancy: Екатеринбург", () -> {
-            city.shouldHave(text("Екатеринбург"));
+        step("check the compliance of the city with the vacancy: Екатеринбург, улица Ткачей, 23", () -> {
+            city.shouldHave(text("Екатеринбург, улица Ткачей, 23"));
         });
         step("checking compliance in key skills Java", () -> {
             skill.scrollTo();
@@ -51,11 +49,11 @@ public class Tests extends TestBase {
     @DisplayName("Negative test")
     void hhTest02() {
         step("open the vacancies link", () -> {
-            open("/vacancy?text=Qa+engineer+java&from=suggest_post&salary=&clusters=true&area=3&ored_clusters=true&enable_snippets=true");
+            open("/vacancy/51857862?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=QA%20engineer%20java");
         });
-        step("checking compliance in key skills Python", () -> {
+        step("checking compliance in key skills Jira", () -> {
             skill.scrollTo();
-            skill.shouldHave(text("Python"));
+            skill.shouldHave(text("Jira"));
         });
     }
 
