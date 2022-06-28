@@ -38,7 +38,7 @@ public class Tests extends TestBase {
     }
 
     @Test
-    @DisplayName("Negative test")
+    @DisplayName("Negative tests")
     void hhTest02() {
         step("open the vacancies link", () -> {
             open("/vacancy/51857862?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=QA%20engineer%20java");
