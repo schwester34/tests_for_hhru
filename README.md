@@ -89,9 +89,9 @@ Conducted tests with steps, the ability to view a screenshot, log and video
 
 
 ---
-:incoming_envelope: __Отчет в Telegram__
+:incoming_envelope: __Telegram Report__
 
-<img width="30%"  title="тлготчет.png" src="images/screenshot/тлготчет.png">
+
 
 In addition to colorful infographics, you can click on the link to view the report:
 [View now](https://jenkins.autotests.cloud/job/tests_for_hhru/6/allure/#)
