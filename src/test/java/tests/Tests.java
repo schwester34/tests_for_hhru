@@ -19,16 +19,29 @@ public class Tests extends TestBase {
 
 
     @Test
-    @DisplayName("Positive tests")
+    @DisplayName("Positive test")
     void hhTest01() {
         step("open the link", () -> open("/vacancy/51857862?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=QA%20engineer%20java"));
 
         step("check the correspondence of the job title to the expectation: Middle QA Engineer", () -> {
             vacancy.shouldHave(text("Middle QA Engineer"));
         });
+    }
+    @Test
+    @DisplayName("Positive test")
+    void hhTest02() {
+        step("open the link", () -> open("/vacancy/51857862?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=QA%20engineer%20java"));
 
         step("check the compliance of the address with the vacancy: Екатеринбург, улица Ткачей, 23", () -> {
             address.shouldHave(text("Екатеринбург, улица Ткачей, 23"));
+        });
+    }
+
+    @Test
+    @DisplayName("Positive test")
+    void hhTest03() {
+        step("open the vacancies link", () -> {
+            open("/vacancy/51857862?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=QA%20engineer%20java");
         });
         step("checking compliance in key skills Java", () -> {
             skill.scrollTo();
@@ -38,7 +51,7 @@ public class Tests extends TestBase {
 
     @Test
     @DisplayName("Negative test")
-    void hhTest02() {
+    void hhTest04() {
         step("open the vacancies link", () -> {
             open("/vacancy/51857862?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=QA%20engineer%20java");
         });
@@ -49,7 +62,7 @@ public class Tests extends TestBase {
     }
     @Test
     @DisplayName("Negative test")
-    void hhTest03() {
+    void hhTest05() {
         step("open the vacancies link", () -> {
             open("/vacancy/51857862?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=QA%20engineer%20java");
         });
@@ -60,3 +73,5 @@ public class Tests extends TestBase {
     }
 
 }
+
+       
