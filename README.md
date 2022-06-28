@@ -80,7 +80,8 @@ vacancy
 View
 
 
-![screenshoot](https://user-images.githubusercontent.com/99205353/176091646-7ca4e4ea-e6d2-4ab9-a631-55b4d506fa95.png)
+![allurereport](https://user-images.githubusercontent.com/99205353/176164827-370ef34d-f385-42a7-b9b6-a17e2b7ff2d5.png)
+
 
 
 Conducted tests with steps, the ability to view a screenshot, log and video
