@@ -15,7 +15,7 @@ import static io.qameta.allure.Allure.step;
 @Tag("vacancy")
 public class Tests extends TestBase {
     SelenideElement vacancy = $(".HH-MainContent"),
-            city = $("[data-qa='vacancy-view-raw-address']"),
+            address = $("[data-qa='vacancy-view-raw-address']"),
             skill = $(".bloko-tag-list");
 
 
@@ -28,8 +28,8 @@ public class Tests extends TestBase {
             vacancy.shouldHave(text("Middle QA Engineer"));
         });
 
-        step("check the compliance of the city with the vacancy: Екатеринбург, улица Ткачей, 23", () -> {
-            city.shouldHave(text("Екатеринбург, улица Ткачей, 23"));
+        step("check the compliance of the address with the vacancy: Екатеринбург, улица Ткачей, 23", () -> {
+            address.shouldHave(text("Екатеринбург, улица Ткачей, 23"));
         });
         step("checking compliance in key skills Java", () -> {
             skill.scrollTo();
