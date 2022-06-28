@@ -19,7 +19,7 @@ public class Tests extends TestBase {
 
 
     @Test
-    @DisplayName("Positive test") // Проверка наличия в названии вакансии Middle QA Engineer
+    @DisplayName("Positive test Проверка наличия в названии вакансии Middle QA Engineer") 
     void hhTest01() {
         step("open the link", () -> open("/vacancy/51857862?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=QA%20engineer%20java"));
 
@@ -28,7 +28,7 @@ public class Tests extends TestBase {
         });
     }
     @Test
-    @DisplayName("Positive test") // Проверка наличия в вакансии адреса Екатеринбург, улица Ткачей, 23
+    @DisplayName("Positive test Проверка наличия в вакансии адреса Екатеринбург, улица Ткачей, 23") 
     void hhTest02() {
         step("open the link", () -> open("/vacancy/51857862?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=QA%20engineer%20java"));
 
@@ -38,7 +38,7 @@ public class Tests extends TestBase {
     }
 
     @Test
-    @DisplayName("Positive test") // Проверка в наличии вакансии скилла Java
+    @DisplayName("Positive test Проверка в наличии вакансии скилла Java") 
     void hhTest03() {
         step("open the vacancies link", () -> {
             open("/vacancy/51857862?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=QA%20engineer%20java");
@@ -50,7 +50,7 @@ public class Tests extends TestBase {
     }
 
     @Test
-    @DisplayName("Negative test") // Проверка в наличии вакансии скилла Jira
+    @DisplayName("Negative test Проверка в наличии вакансии скилла Jira") 
     void hhTest04() {
         step("open the vacancies link", () -> {
             open("/vacancy/51857862?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=QA%20engineer%20java");
@@ -61,7 +61,7 @@ public class Tests extends TestBase {
         });
     }
     @Test
-    @DisplayName("Negative test") // Проверка в наличии вакансии скилла Selenide
+    @DisplayName("Negative test  Проверка в наличии вакансии скилла Selenide") 
     void hhTest05() {
         step("open the vacancies link", () -> {
             open("/vacancy/51857862?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=QA%20engineer%20java");
