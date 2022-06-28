@@ -6,7 +6,6 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.text;
-import static com.codeborne.selenide.Selectors.byAttribute;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 import static io.qameta.allure.Allure.step;
@@ -38,7 +37,7 @@ public class Tests extends TestBase {
     }
 
     @Test
-    @DisplayName("Negative tests")
+    @DisplayName("Negative test")
     void hhTest02() {
         step("open the vacancies link", () -> {
             open("/vacancy/51857862?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=QA%20engineer%20java");
@@ -46,6 +45,13 @@ public class Tests extends TestBase {
         step("checking compliance in key skills Jira", () -> {
             skill.scrollTo();
             skill.shouldHave(text("Jira"));
+        });
+    }
+    @Test
+    @DisplayName("Negative test")
+    void hhTest03() {
+        step("open the vacancies link", () -> {
+            open("/vacancy/51857862?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=QA%20engineer%20java");
         });
         step("checking compliance in key skills Selenide", () -> {
             skill.scrollTo();
