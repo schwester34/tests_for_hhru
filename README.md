@@ -100,7 +100,11 @@ In addition to colorful infographics, you can click on the link to view the repo
 :clapper: __Video of an example of passing the test__
 
 The launch takes place on a remote Selenoid web driver
-https://jenkins.autotests.cloud/job/tests_for_hhru/6/allure/data/attachments/4c5c4fe93b9cd3b4.html
+
+
+https://user-images.githubusercontent.com/99205353/176093908-c10156d7-63d9-4544-90f2-cd1d3d918a6e.mp4
+
+
 
 :arrow_up: [Up the page](#anchor)
 
