@@ -86,7 +86,8 @@ View
 
 Conducted tests with steps, the ability to view a screenshot, log and video
 
-![screenshoot4](https://user-images.githubusercontent.com/99205353/176092203-97bde9c5-fb34-4e88-a10d-6519e98e3bbc.png)
+![allure2](https://user-images.githubusercontent.com/99205353/176166356-6bcd72cd-8d08-4385-b9de-c2e434632b57.png)
+
 
 
 ---
@@ -96,8 +97,7 @@ Conducted tests with steps, the ability to view a screenshot, log and video
 
 
 In addition to colorful infographics, you can click on the link to view the report:
-
-![allure2](https://user-images.githubusercontent.com/99205353/176165944-a172427b-0d02-4027-b4f8-f8c35236226a.png)
+https://jenkins.autotests.cloud/job/tests_for_hhru/16/allure/#
 
 
 ---
