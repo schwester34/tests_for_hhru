@@ -16,11 +16,9 @@ import static io.qameta.allure.Allure.step;
 public class Tests extends TestBase {
     SelenideElement vacancy = $(".HH-MainContent"),
             city = $("[data-qa='vacancy-view-raw-address']"),
-            skill = $(".bloko-tag-list"),
-            form = $(".bloko-form-item"),
-            attribute = $(byAttribute("data-qa", "account-signup-email")),
-            ok = $(".signup-submit"),
-            checkup = $(".bloko-form-error");
+            skill = $(".bloko-tag-list");
+
+
     @Test
     @DisplayName("Positive tests")
     void hhTest01() {
@@ -37,12 +35,6 @@ public class Tests extends TestBase {
             skill.scrollTo();
             skill.shouldHave(text("Java"));
         });
-        step("checking for an error notification when entering the phone incorrectly", () -> {
-            form.click();
-            attribute.setValue("12345678987654321");
-            ok.click();
-            checkup.shouldHave(text("Пожалуйста, укажите email или телефон"));
-        });
     }
 
     @Test
@@ -54,6 +46,10 @@ public class Tests extends TestBase {
         step("checking compliance in key skills Jira", () -> {
             skill.scrollTo();
             skill.shouldHave(text("Jira"));
+        });
+        step("checking compliance in key skills Selenide", () -> {
+            skill.scrollTo();
+            skill.shouldHave(text("Selenide"));
         });
     }
 
