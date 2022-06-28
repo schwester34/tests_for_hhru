@@ -33,14 +33,14 @@ __Implemented checks__
 
 - [ ] Checking the correspondence of the job title to the expectation: Middle QA Engineer
 - [ ] Checking the compliance of the address with the vacancy: Екатеринбург, улица Ткачей, 23
-- [ ] Сhecking compliance in key skills Java:  Java
+- [ ] Сhecking compliance in key skills Java
 
 
 ---
 
 :x: _Negative tests_
-- [ ] Checking compliance in key skills Jira:  Jira
-- [ ] Checking compliance in key skills Selenide:  Selenide
+- [ ] Checking compliance in key skills Jira
+- [ ] Checking compliance in key skills Selenide
 
 ---
 :toolbox: __Build in Jenkins__
