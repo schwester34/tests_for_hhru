@@ -58,7 +58,7 @@ We can assemble a job with the proposed parameters by selecting from the drop-do
 
 
 ---
-:computer: __ Launch from the terminal__
+:computer: __Launch from the terminal__
 
 Local test run:
 
@@ -93,15 +93,15 @@ Conducted tests with steps, the ability to view a screenshot, log and video
 
 <img width="30%"  title="тлготчет.png" src="images/screenshot/тлготчет.png">
 
-Кроме красочной инфографики достпупна возможность перейти по ссыле для просмотра отчета:
-[просмотреть сейчас ](https://jenkins.autotests.cloud/job/Lesson_13_vacancyHh/35/allure/)
+In addition to colorful infographics, you can click on the link to view the report:
+[View now](https://jenkins.autotests.cloud/job/tests_for_hhru/6/allure/#)
 
 ---
-:clapper: __Видео примера прохождения теста__
+:clapper: __Video of an example of passing the test__
 
-Запуск проходит на удаленном веб-драйвере Selenoid
-<img title="Selenoid Video" src="images/video/видео.gif">
+The launch takes place on a remote Selenoid web driver
+https://jenkins.autotests.cloud/job/tests_for_hhru/6/allure/data/attachments/4c5c4fe93b9cd3b4.html
 
-:arrow_up: [Вверх страницы](#anchor)
+:arrow_up: [Up the page](#anchor)
 
 ---
